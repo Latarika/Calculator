@@ -8,7 +8,6 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="235.0" style="-fx-background-color: #46423d;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label alignment="CENTER_RIGHT" layoutX="3.0" prefHeight="61.0" prefWidth="228.0" style="-fx-background-color: #46423d;" text="0" textFill="WHITE" AnchorPane.bottomAnchor="239.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="0.0">
@@ -31,97 +30,97 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #565351; -fx-border-color: #47423f;" text="AC" textFill="#f8f8f8">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #565351; -fx-border-color: #47423f;" styleClass="btn" text="AC" textFill="#f8f8f8">
                <font>
                   <Font name="American Typewriter" size="19.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #565351; -fx-border-color: #47423f;" text="+/-" textFill="#f8f8f8" GridPane.columnIndex="1">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #565351; -fx-border-color: #47423f;" styleClass="btn" text="+/-" textFill="#f8f8f8" GridPane.columnIndex="1">
                <font>
                   <Font name="American Typewriter" size="19.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #565351; -fx-border-color: #47423f;" text="\%" textFill="#f8f8f8" GridPane.columnIndex="2">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #565351; -fx-border-color: #47423f;" styleClass="btn" text="\%" textFill="#f8f8f8" GridPane.columnIndex="2">
                <font>
                   <Font name="American Typewriter" size="19.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #f2a23c; -fx-border-color: #47423f;" text="/" textFill="#f8f8f8" GridPane.columnIndex="3">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #f2a23c; -fx-border-color: #47423f;" styleClass="btn" text="/" textFill="#f8f8f8" GridPane.columnIndex="3">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" text="7" textFill="#f8f8f8" GridPane.rowIndex="1">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" styleClass="btn" text="7" textFill="#f8f8f8" GridPane.rowIndex="1">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" text="8" textFill="#f8f8f8" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" styleClass="btn" text="8" textFill="#f8f8f8" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" text="9" textFill="#f8f8f8" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" styleClass="btn" text="9" textFill="#f8f8f8" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #f2a23c; -fx-border-color: #47423f;" text="x" textFill="#f8f8f8" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #f2a23c; -fx-border-color: #47423f;" styleClass="btn" text="x" textFill="#f8f8f8" GridPane.columnIndex="3" GridPane.rowIndex="1">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" text="4" textFill="#f8f8f8" GridPane.rowIndex="2">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" styleClass="btn" text="4" textFill="#f8f8f8" GridPane.rowIndex="2">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" text="5" textFill="#f8f8f8" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" styleClass="btn" text="5" textFill="#f8f8f8" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" text="6" textFill="#f8f8f8" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" styleClass="btn" text="6" textFill="#f8f8f8" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #f2a23c; -fx-border-color: #47423f;" text="-" textFill="#f8f8f8" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #f2a23c; -fx-border-color: #47423f;" styleClass="btn" text="-" textFill="#f8f8f8" GridPane.columnIndex="3" GridPane.rowIndex="2">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" text="1" textFill="#f8f8f8" GridPane.rowIndex="3">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" styleClass="btn" text="1" textFill="#f8f8f8" GridPane.rowIndex="3">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" text="2" textFill="#f8f8f8" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" styleClass="btn" text="2" textFill="#f8f8f8" GridPane.columnIndex="1" GridPane.rowIndex="3">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" text="3" textFill="#f8f8f8" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" styleClass="btn" text="3" textFill="#f8f8f8" GridPane.columnIndex="2" GridPane.rowIndex="3">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #f2a23c; -fx-border-color: #47423f;" text="+" textFill="#f8f8f8" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #f2a23c; -fx-border-color: #47423f;" styleClass="btn" text="+" textFill="#f8f8f8" GridPane.columnIndex="3" GridPane.rowIndex="3">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="117.5" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" text="0" textFill="#f8f8f8" GridPane.columnSpan="2" GridPane.rowIndex="4">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="117.5" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" styleClass="btn" text="0" textFill="#f8f8f8" GridPane.columnSpan="2" GridPane.rowIndex="4">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" text="," textFill="#f8f8f8" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #72706d; -fx-border-color: #47423f;" styleClass="btn" text="," textFill="#f8f8f8" GridPane.columnIndex="2" GridPane.rowIndex="4">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #f2a23c; -fx-border-color: #47423f;" text="=" textFill="#f8f8f8" GridPane.columnIndex="3" GridPane.rowIndex="4">
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="58.75" style="-fx-background-color: #f2a23c; -fx-border-color: #47423f;" styleClass="btn" text="=" textFill="#f8f8f8" GridPane.columnIndex="3" GridPane.rowIndex="4">
                <font>
                   <Font name="American Typewriter" size="20.0" />
                </font>
